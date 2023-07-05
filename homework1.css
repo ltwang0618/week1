@@ -31,11 +31,12 @@
 }
 .list{
     display:flex;
+    width:1200px;
     justify-content:center;
 }
 .product{
     flex:none;
-    width:280px;
+    width:183px;
     margin:10px;
     text-align:center;
 }
