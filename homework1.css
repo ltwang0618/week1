@@ -31,13 +31,11 @@
     text-align:center;
 }
 .list{
-    width:1200px;
-    height:500px;
     justify-content:center;
     display:grid;
     gap: 20px 20px;
-    grid-template-columns:[line1] 183px [line2] 183px [line3] 183px [line4] 183px [line5] 183px [line6] 183px [line7]
-    grid-template-rows:[row1] 50px [row2] 200px [row3] 200px [row4]
+    grid-template-columns:183px 183px 183px 183px 183px 183px 
+    grid-template-rows:50px 200px 200px 
 }
 .Promotion1{
     background-color:#cccccc;
