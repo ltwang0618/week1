@@ -33,7 +33,6 @@
 }
 .list{
     width:1200px;
-    height:490px;
     display:grid;
     gap:20px 20px;
     grid-template-columns:repeat(6, 1fr) 
