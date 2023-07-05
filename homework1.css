@@ -34,10 +34,6 @@
     width:1200px;
     justify-content:center;
 }
-.grid-container {
-  display:grid;
-  grid-template-rows:50px 200px;
-}
 .product{
     flex-wrap:wrap;
     width:183px;
