@@ -30,7 +30,7 @@
     text-align:center;
 }
 .list{
-    flex-wrap:wrap;
+    display:flex;
     width:1200px;
     justify-content:center;
 }
@@ -39,7 +39,7 @@
   grid-template-rows:50px 200px;
 }
 .product{
-    flex:none;
+    flex-wrap:wrap;
     width:183px;
     margin:10px;
     text-align:center;
