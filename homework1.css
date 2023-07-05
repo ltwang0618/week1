@@ -43,6 +43,8 @@
 .Promotion1{
     height:50px;
     background-color:#cccccc;
+    display:flex;
+    align-items:center;
     grid-column:1/3;
     grid-row:1/2;
 }
