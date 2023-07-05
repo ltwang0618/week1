@@ -46,6 +46,10 @@
     grid-column:1/3;
     grid-row:1/2;
 }
+img.small1{
+    width:80px;
+    height:50px;
+}
 .Promotion2{
     height:50px;
     background-color:#cccccc;
