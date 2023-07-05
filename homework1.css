@@ -32,11 +32,12 @@
 }
 .list{
     width:1200px;
-    justify-content:center;
+    height:500px;
     display:grid;
-    gap: 20px 20px;
-    grid-template-columns:183px 183px 183px 183px 183px 183px 
-    grid-template-rows:50px 200px 200px 
+    gap:20px;
+    grid-template-columns:repeat(6, 1fr) 
+    grid-template-rows:repeat(3, 1fr)
+    place-content:start start;
 }
 .Promotion1{
     background-color:#cccccc;
