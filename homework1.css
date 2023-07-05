@@ -47,8 +47,8 @@
     grid-row:1/2;
 }
 img.small1{
-    width:80px;
-    height:50px;
+    max-width:80px;
+    max-height:50px;
 }
 .Promotion2{
     height:50px;
