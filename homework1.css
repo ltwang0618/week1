@@ -43,6 +43,7 @@
 }
 .Promotion1{
     display:flex;
+    align-content: center
     height:50px;
     background-color:#cccccc;
     grid-column:1/3;
