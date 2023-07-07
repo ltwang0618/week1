@@ -4,6 +4,7 @@
 .left{
     flex:none;
     width:200px;
+    font-size:20px;
 }
 .right{
     display:flex;
@@ -15,6 +16,12 @@
     width:80px;
     margin-right:10px;
     text-align:center;
+    display:block;
+    font-size:20px;
+}
+.mobile-menu{
+    text-align:center;
+    display:none;
 }
 .welcome{
     display:flex;
@@ -25,9 +32,9 @@
     background-color:#cccccc;
 }
 .text{
-    width:300px;
-    height:40px;
-    font-size:30px;
+    width:600px;
+    height:60px;
+    font-size:40px;
     font-weight:bold;
     text-align:center;
 }
@@ -58,6 +65,7 @@
     align-items:center;
     text-align:center;
     margin-left:5px;
+    font-size:20px;
 }
 .word2{
     display:flex;
@@ -65,6 +73,7 @@
     align-items:center;
     text-align:center;
     margin:auto;
+    font-size:20px;
 }
 img.small1{
     max-width:80px;
@@ -212,8 +221,18 @@ img.big1{
         grid-template-rows:repeat(20, 1fr)
         place-content:start start; 
     }
+    .word2{
+        display:flex;
+        max-width:50px;
+        align-items:center;
+        text-align:center;
+        margin:auto;
+        font-size:20px;
+    }
     img.big1{
-        width:100%;    
+        width:100%;
+        object-fit:cover;
+        flex: 1;    
     }
    .Promotion1{
         display:flex;
@@ -235,74 +254,187 @@ img.big1{
     }
     .Title1{
         display:flex;
+        flex-wrap:wrap;
         background-color:#cccccc;
         grid-column:1/2;
         grid-row:3/9;
     }
     .Title2{
         display:flex;
+        flex-wrap:wrap;
         background-color:#cccccc;
         grid-column:2/3;
         grid-row:3/9;
     }
     .Title3{
         display:flex;
+        flex-wrap:wrap;
         background-color:#cccccc;
         grid-column:3/4;
         grid-row:3/9;
     }
     .Title4{
         display:flex;
+        flex-wrap:wrap;
         background-color:#cccccc;
         grid-column:4/5;
         grid-row:3/9;
     }
     .Title5{
         display:flex;
+        flex-wrap:wrap;
         background-color:#cccccc;
         grid-column:1/2;
         grid-row:9/15;
     }
     .Title6{
         display:flex;
+        flex-wrap:wrap;
         background-color:#cccccc;
         grid-column:2/3;
         grid-row:9/15;
     }
     .Title7{
         display:flex;
+        flex-wrap:wrap;
         background-color:#cccccc;
         grid-column:3/4;
         grid-row:9/15;
     }
     .Title8{
         display:flex;
+        flex-wrap:wrap;
         background-color:#cccccc;
         grid-column:4/5;
         grid-row:9/15;
     }
     .Title9{
         display:flex;
+        flex-wrap:wrap;
         background-color:#cccccc;
         grid-column:1/2;
         grid-row:15/21;
     }
     .Title10{
         display:flex;
+        flex-wrap:wrap;
         background-color:#cccccc;
         grid-column:2/3;
         grid-row:15/21;
     }
     .Title11{
         display:flex;
+        flex-wrap:wrap;
         background-color:#cccccc;
         grid-column:3/4;
         grid-row:15/21;
     }
     .Title12{
         display:flex;
+        flex-wrap:wrap;
         background-color:#cccccc;
         grid-column:4/5;
         grid-row:15/21;
+    }
+}
+@media (max-width:600px){
+    .item{
+        flex:none;
+        width:80px;
+        margin-right:10px;
+        text-align:center;
+        display:none;
+    }
+    .mobile-menu{
+        text-align:center;
+        display:block;
+    }
+    .list{
+        display:flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:flex-start;
+        margin:auto;
+    }
+   .Promotion1{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;
+    }
+    .Promotion2{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;
+    }
+    .Promotion3{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;
+    }
+    .Title1{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;s
+    }
+    .Title2{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;
+    }
+    .Title3{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;
+    }
+    .Title4{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;
+    }
+    .Title5{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;
+    }
+    .Title6{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;
+    }
+    .Title7{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;
+    }
+    .Title8{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;
+    }
+    .Title9{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;
+    }
+    .Title10{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;
+    }
+    .Title11{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc;
+    }
+    .Title12{
+        min-width:100%;
+        display:flex;
+        background-color:#cccccc; 
+    }
+    img.big1{
+        min-width:100%;
+        object-fit:cover;
+        flex: 1;
     }
 }
